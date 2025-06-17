@@ -16,5 +16,5 @@ WORKDIR /app
 COPY --from=builder /app ./
 
 EXPOSE 3000
-CMD ["next", "start", "-p", "4000"]
-# CMD ["npm", "run", "dev"]
+# CMD ["next", "start", "-p", "4000"]
+CMD ["npm", "run", "dev"]
