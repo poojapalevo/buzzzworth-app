@@ -39,6 +39,8 @@ export default function PageLayout({
     };
   }, []);
 
+  useEffect(()=>{console.log(isLoading)},[isLoading])
+
   return (
     <>
       <div className={`page-loader ${!isLoading ? "fade-out" : ""}`} style={{display:!isLoading ? 'none':''}}>

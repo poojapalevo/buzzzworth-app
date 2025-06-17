@@ -28,7 +28,7 @@ export default function Home() {
         <Award_sec />
         <Musings_wrap />
         <Our_scroll_stoping />
-        <section><div className="temp12"><ContactUs /></div></section>
+        <section><ContactUs /></section>
         <section><Footer /></section>
       </PageLayout>
     </>

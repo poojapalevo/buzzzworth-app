@@ -22,7 +22,7 @@ export default function About_us() {
                 {/* <section><Latest_blog /></section> */}
                 {/* <Musings_wrap /> */}
                 <Voices_sec />
-                <section><div className="temp12 "><ContactUs /></div></section>
+                <section><ContactUs /></section>
                 <section><Footer /></section>
             </PageLayout>
         </>

@@ -14,8 +14,7 @@ export default function OurService() {
                 <div className="main-container white_background">
                     <ServicesCardList />
                 </div>
-
-                <div className="temp12 "><ContactUs Title={<><span>we’re always just a </span>  <br /> click away!</>} /></div>
+                <ContactUs Title={<><span>we’re always just a </span>  <br /> click away!</>} />
                 <Footer />
             </PageLayout>
         </>

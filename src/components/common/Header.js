@@ -51,7 +51,8 @@ export default function Header({ headerclassName }) {
                         <div className="nav1Right">
                             <div className="nav1Member">
                                 <div className="memberLoginBtn">
-                                    <a href="#commonForm"> Connect With Us </a>
+                                    {/* <a href="#commonForm"> Connect With Us </a> */}
+                                    <Link href="/contact-us">Connect With Us</Link>
                                 </div>
 
                                 <div className="mob-nav-social-links" href="javascript:void(0)">

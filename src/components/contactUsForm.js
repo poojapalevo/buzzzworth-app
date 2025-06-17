@@ -88,6 +88,7 @@ export default function ContactUs({Title}) {
   ];
 
   return (
+    <div className="temp12 ">
     <div className="common-form">
       <div className="common-form-left">
         <div className="common-form-heading">
@@ -179,6 +180,7 @@ export default function ContactUs({Title}) {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import ClassSwitcher from "@/components/common/layout";
 import PageLayout from "@/components/common/pageLayout";
 import ContactUs from "@/components/contactUsForm";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function Contact_us() {
@@ -17,7 +18,7 @@ export default function Contact_us() {
           <div className="bannerInn-text">
             <ul className="breadcrumb-list">
               <li className="breadcrumb-list-item">
-                <a href="#URL">Home</a>
+                <Link href="/home">Home</Link>
               </li>
               <li className="breadcrumb-list-item active">get in touch</li>
             </ul>
@@ -57,9 +58,7 @@ export default function Contact_us() {
         </div>
       </div>
       <section className="white_background">
-      <div className="temp12">
         <ContactUs Title={<><span>we’re always just a </span>  <br /> click away!</>} />
-      </div>
       </section>
       <Footer />
       </PageLayout>
