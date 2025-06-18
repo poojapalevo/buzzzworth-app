@@ -1,8 +1,8 @@
 "use client";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import Award_sec from "@/components/Award_sect";
-import Buzz_brands from "@/components/Buzz_brands";
-import Header from "@/components/common/Header";
+// import Buzz_brands from "@/components/Buzz_brands";
+// import Header from "@/components/common/Header";
 import ContactUs from "@/components/contactUsForm";
 import Em_buzz_sec from "@/components/Em-buzz-sec";
 import Footer from "@/components/Footer";
