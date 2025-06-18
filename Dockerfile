@@ -15,6 +15,6 @@ FROM node:20-alpine
 WORKDIR /app
 COPY --from=builder /app ./
 
-EXPOSE 3000
-# CMD ["next", "start", "-p", "4000"]
-CMD ["npm", "run", "dev"]
+EXPOSE 4000
+CMD ["next", "start", "-p", "4000"]
+# CMD ["npm", "run", "dev"]
